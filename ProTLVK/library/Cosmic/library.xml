@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library name="Cosmic">
+    <prop-group name="Bridge">
+	    <prop name="Bridge 2">
+			<mesh  file="brid_2.3ds">
+				<texture name="Bridge 1" diffuse-map="brid_2.jpg" />
+			</mesh>
+		</prop>
+		<prop name="arch6">
+			<mesh  file="arch_circle.3ds">
+                <texture name="arch_a" diffuse-map="arch.jpg" />
+            </mesh>
+		</prop>
+		<prop name="stolb">
+			<mesh  file="beam.3ds">
+                <texture name="beam a" diffuse-map="beam.jpg" />
+            </mesh>
+		</prop>
+		<prop name="CB6">
+			<mesh  file="comb1.3ds">
+				<texture name="1" diffuse-map="combuil1.jpg" />
+			</mesh>
+		</prop>
+		<prop name="225">
+            <mesh file="spring225.3ds">
+                <texture name="Spring a" diffuse-map="dot2.jpg" />
+            </mesh>
+        </prop>
+		<prop name="450">
+            <mesh file="spring450.3ds">
+                <texture name="Spring b" diffuse-map="dot2.jpg" />
+            </mesh>
+        </prop>
+	</prop-group>
+	<prop-group name="trench">
+		<prop name="tren1">
+			<mesh  file="tren_end.3ds"/>
+		</prop>
+		<prop name="tren3">
+			<mesh  file="tren1end.3ds"/>
+		</prop>
+		<prop name="tren4">
+			<mesh  file="trench.3ds"/>
+		</prop>		
+		<prop name="tren5">
+			<mesh  file="trench1.3ds"/>
+		</prop>
+		<prop name="tren_change">
+			<mesh  file="tren_chn.3ds"/>
+		</prop>
+	</prop-group>
+	<prop-group name="Grass">
+		<prop name="Grass Top">
+            <mesh file="tile_01.3ds">
+				<texture name="Dirt 1" diffuse-map="grass_1.jpg"/>
+				<texture name="Dirt 2" diffuse-map="grass_2.jpg"/>
+				<texture name="Dirt 3" diffuse-map="grass_3.jpg"/>
+				<texture name="Dirt 4" diffuse-map="grass_4.jpg"/>
+				<texture name="Dirt 5" diffuse-map="grass_5.jpg"/>
+				<texture name="Dirt 6" diffuse-map="grass_6.jpg"/>
+				<texture name="Dirt 7" diffuse-map="grass_7.jpg"/>
+				<texture name="Dirt 8" diffuse-map="grass_8.jpg"/>
+				<texture name="Dirt 9" diffuse-map="grass_9.jpg"/>
+				<texture name="Dirt 10" diffuse-map="grass_10.jpg"/>
+				<texture name="Dirt 11" diffuse-map="grass_11.jpg"/>
+            </mesh>
+		</prop>
+		<prop name="Grass Side">
+            <mesh file="tile_02.3ds">
+				<texture name="Dirt 1" diffuse-map="grass_1.jpg"/>
+				<texture name="Dirt 2" diffuse-map="grass_2.jpg"/>
+				<texture name="Dirt 3" diffuse-map="grass_3.jpg"/>
+				<texture name="Dirt 4" diffuse-map="grass_4.jpg"/>
+				<texture name="Dirt 5" diffuse-map="grass_5.jpg"/>
+				<texture name="Dirt 6" diffuse-map="grass_6.jpg"/>
+				<texture name="Dirt 7" diffuse-map="grass_7.jpg"/>
+				<texture name="Dirt 8" diffuse-map="grass_8.jpg"/>
+				<texture name="Dirt 9" diffuse-map="grass_9.jpg"/>
+				<texture name="Dirt 10" diffuse-map="grass_10.jpg"/>
+				<texture name="Dirt 11" diffuse-map="grass_11.jpg"/>
+            </mesh>
+		</prop>
+		<prop name="Grass Bottom">
+            <mesh file="fliptile.3ds">
+				<texture name="Dirt 1" diffuse-map="grass_1.jpg"/>
+				<texture name="Dirt 2" diffuse-map="grass_2.jpg"/>
+				<texture name="Dirt 3" diffuse-map="grass_3.jpg"/>
+				<texture name="Dirt 4" diffuse-map="grass_4.jpg"/>
+				<texture name="Dirt 5" diffuse-map="grass_5.jpg"/>
+				<texture name="Dirt 6" diffuse-map="grass_6.jpg"/>
+				<texture name="Dirt 7" diffuse-map="grass_7.jpg"/>
+				<texture name="Dirt 8" diffuse-map="grass_8.jpg"/>
+				<texture name="Dirt 9" diffuse-map="grass_9.jpg"/>
+				<texture name="Dirt 10" diffuse-map="grass_10.jpg"/>
+				<texture name="Dirt 11" diffuse-map="grass_11.jpg"/>
+            </mesh>
+		</prop>
+		<prop name="5x5">
+			<mesh file="5x5.3DS">
+					<texture name="fade" diffuse-map="fade.png"/>
+					<texture name="fade 1" diffuse-map="fade1.png"/>
+			</mesh>
+		</prop>
+	</prop-group>
+	<prop-group name="Walls">
+		<prop name="WTile 1">
+			<mesh  file="wall01.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 2">
+			<mesh  file="wall02.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 3">
+			<mesh  file="wall03.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 4">
+			<mesh  file="wall04.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 5">
+			<mesh  file="wall05.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 6">
+			<mesh  file="wall06.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 7">
+			<mesh  file="wall07.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 8">
+			<mesh  file="wall08.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 9">
+			<mesh  file="wall09.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 10">
+			<mesh  file="wall10.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 11">
+			<mesh  file="wall11.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 12">
+			<mesh  file="wall12.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 13">
+			<mesh  file="wall13.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 14">
+			<mesh  file="wall14.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+		<prop name="WTile 15">
+			<mesh  file="wall15.3ds">
+				<texture name="Tile 1" diffuse-map="tile1.jpg"/>
+				<texture name="Tile 2" diffuse-map="tile2.jpg"/>
+			</mesh>
+		</prop>
+    </prop-group>
+	<prop-group name="ExWalls">
+	    <prop name="wall1">
+            <mesh file="wall1.3ds">
+                <texture name="dot17" diffuse-map="dot2_2.jpg" />
+            </mesh>
+        </prop>
+		<prop name="win1">
+            <mesh file="win1.3ds">
+                <texture name="dot21" diffuse-map="dot2_3.jpg" />
+            </mesh>
+        </prop>
+		<prop name="winwall1">
+            <mesh file="winwall1.3ds">
+                <texture name="dot23" diffuse-map="dot2_4.jpg" />
+            </mesh>
+        </prop>
+		<prop name="winwall2">
+            <mesh file="winwall2.3ds">
+                <texture name="dot24" diffuse-map="dot2_5.jpg" />
+            </mesh>
+        </prop>
+	</prop-group>
+</library>

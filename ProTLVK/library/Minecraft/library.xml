@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library name="Minecraft">
+    <prop-group name="default">
+		<prop name="Grass Top">
+            <mesh file="tile_01.3ds">
+				<texture name="Dirt 1" diffuse-map="asp_1.jpg"/>
+                <texture name="Dirt 2" diffuse-map="asp_2.jpg"/>
+                <texture name="Dirt 3" diffuse-map="asp_3.jpg"/>
+                <texture name="Dirt 4" diffuse-map="asp_4.jpg"/>
+                <texture name="Dirt 5" diffuse-map="asp_5.jpg"/>
+				<texture name="Dirt 6" diffuse-map="asp_6.jpg"/>
+				<texture name="Dirt 7" diffuse-map="asp_7.jpg"/>
+				<texture name="Dirt 8" diffuse-map="asp_8.jpg"/>
+				<texture name="Dirt 9" diffuse-map="asp_9.jpg"/>
+				<texture name="Dirt 10" diffuse-map="asp_10.jpg"/>
+				<texture name="Dirt 11" diffuse-map="asp_11.jpg"/>
+				<texture name="Dirt 12" diffuse-map="asp_12.jpg"/>
+				<texture name="Dirt 13" diffuse-map="asp_13.jpg"/>
+				<texture name="Dirt 14" diffuse-map="asp_14.jpg"/>
+				<texture name="Dirt 15" diffuse-map="asp_15.png"/>
+				<texture name="Dirt 16" diffuse-map="asp_16.png"/>
+				<texture name="Dirt 17" diffuse-map="asp_17.png"/>
+				<texture name="Dirt 18" diffuse-map="asp_18.png"/>
+				<texture name="Dirt 19" diffuse-map="asp_19.png"/>
+				<texture name="Dirt 20" diffuse-map="asp_20.jpg"/>
+				<texture name="Dirt 21" diffuse-map="asp_21.jpg"/>
+            </mesh>
+		</prop>
+		<prop name="Grass Side">
+            <mesh file="tile_02.3ds">
+				<texture name="Dirt 1" diffuse-map="asp_1.jpg"/>
+                <texture name="Dirt 2" diffuse-map="asp_2.jpg"/>
+                <texture name="Dirt 3" diffuse-map="asp_3.jpg"/>
+                <texture name="Dirt 4" diffuse-map="asp_4.jpg"/>
+                <texture name="Dirt 5" diffuse-map="asp_5.jpg"/>
+				<texture name="Dirt 6" diffuse-map="asp_6.jpg"/>
+				<texture name="Dirt 7" diffuse-map="asp_7.jpg"/>
+				<texture name="Dirt 8" diffuse-map="asp_8.jpg"/>
+				<texture name="Dirt 9" diffuse-map="asp_9.jpg"/>
+				<texture name="Dirt 10" diffuse-map="asp_10.jpg"/>
+				<texture name="Dirt 11" diffuse-map="asp_11.jpg"/>
+				<texture name="Dirt 12" diffuse-map="asp_12.jpg"/>
+				<texture name="Dirt 13" diffuse-map="asp_13.jpg"/>
+				<texture name="Dirt 14" diffuse-map="asp_14.jpg"/>
+				<texture name="Dirt 15" diffuse-map="asp_15.png"/>
+				<texture name="Dirt 16" diffuse-map="asp_16.png"/>
+				<texture name="Dirt 17" diffuse-map="asp_17.png"/>
+				<texture name="Dirt 18" diffuse-map="asp_18.png"/>
+				<texture name="Dirt 19" diffuse-map="asp_19.png"/>
+				<texture name="Dirt 20" diffuse-map="asp_20.jpg"/>
+				<texture name="Dirt 21" diffuse-map="asp_21.jpg"/>
+            </mesh>
+		</prop>
+		<prop name="Grass Bottom">
+            <mesh file="fliptile.3ds">
+				<texture name="Dirt 1" diffuse-map="asp_1.jpg"/>
+                <texture name="Dirt 2" diffuse-map="asp_2.jpg"/>
+                <texture name="Dirt 3" diffuse-map="asp_3.jpg"/>
+                <texture name="Dirt 4" diffuse-map="asp_4.jpg"/>
+                <texture name="Dirt 5" diffuse-map="asp_5.jpg"/>
+				<texture name="Dirt 6" diffuse-map="asp_6.jpg"/>
+				<texture name="Dirt 7" diffuse-map="asp_7.jpg"/>
+				<texture name="Dirt 8" diffuse-map="asp_8.jpg"/>
+				<texture name="Dirt 9" diffuse-map="asp_9.jpg"/>
+				<texture name="Dirt 10" diffuse-map="asp_10.jpg"/>
+				<texture name="Dirt 11" diffuse-map="asp_11.jpg"/>
+				<texture name="Dirt 12" diffuse-map="asp_12.jpg"/>
+				<texture name="Dirt 13" diffuse-map="asp_13.jpg"/>
+				<texture name="Dirt 14" diffuse-map="asp_14.jpg"/>
+				<texture name="Dirt 15" diffuse-map="asp_15.png"/>
+				<texture name="Dirt 16" diffuse-map="asp_16.png"/>
+				<texture name="Dirt 17" diffuse-map="asp_17.png"/>
+				<texture name="Dirt 18" diffuse-map="asp_18.png"/>
+				<texture name="Dirt 19" diffuse-map="asp_19.png"/>
+				<texture name="Dirt 20" diffuse-map="asp_20.jpg"/>
+				<texture name="Dirt 21" diffuse-map="asp_21.jpg"/>
+            </mesh>
+		</prop>
+		<prop name="Grass Stairs">
+            <mesh file="stairs.3ds">
+				<texture name="Dirt 8" diffuse-map="asp_8.jpg"/>
+            </mesh>
+        </prop>
+		<?prop name="Grass Man"?>
+            <mesh file="skin.3ds">
+				<texture name="WTile Sitnikov" diffuse-map="skin1.jpg"/>
+				<texture name="WTile Argge" diffuse-map="skin2.jpg"/>
+				<texture name="WTile Bic" diffuse-map="skin3.jpg"/>
+				<texture name="WTile Kleins" diffuse-map="skin4.jpg"/>
+				<texture name="WTile Corey" diffuse-map="skin5.jpg"/>
+				<texture name="WTile sheezy" diffuse-map="skin6.jpg"/>
+				<texture name="WTile ReeShoT" diffuse-map="skin7.jpg"/>
+            </mesh>
+		<?/prop?>
+		<prop name="Tree 1">
+			<sprite file="wood1.png" origin-y="0.95" scale="3"/>
+		</prop>
+		<prop name="Tree 2">
+			<sprite file="wood2.png" origin-y="0.95" scale="3"/>
+		</prop>
+		<prop name="Tree 3">
+			<sprite file="wood3.png" origin-y="0.95" scale="2"/>
+		</prop>
+		<prop name="Tree 4">
+			<sprite file="wood4.png" origin-y="0.95" scale="3.2"/>
+		</prop>
+		<prop name="Tree 5">
+			<sprite file="wood5.png" origin-y="0.95" scale="3"/>
+		</prop>
+		<prop name="Tree 6">
+			<sprite file="wood6.png" origin-y="0.95" scale="2.2"/>
+		</prop>
+    </prop-group>
+</library>
